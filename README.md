@@ -5,13 +5,20 @@ This Repository contains the contents and commands used for Git and GitHub
 Youtube Link: https://www.youtube.com/watch?v=apGV9Kg7ics
 •	GitHub is a platform or place in online where the project files can be stored and Git maintains the History of changes made to it along with the line number and the person name who made changes to the project.
 •	Repository is a folder where the changes have been saved to the project.
+
 •	ls- shows the list of files or folders in the path
+
 •	mkdir – create a folder in the path specified.
+
 •	Cd folder name – change the directory.
+
 •	Git init (in the GIT CMD) – it creates a file in the same path that stores the history of the changes being made.
+
 •	touch names.txt – create a file in the folder with the name names.txt
+
 •	git status – this command shows the status of the applications in the project folder. With the message as untracked files names.txt.
 To add the file to the git need to write a command git add names.txt
+
 •	Now the git status command shows the file names.txt as tracking 
  
 •	To Commit the changes made in the folder to the Git write command 
@@ -19,17 +26,22 @@ git commit -m “names.txt file added”.
 -m is used add a message while committing the changes 
  
 •	vi names.txt – open the file names.txt and we add data into the file.
+
 •	cat names.txt – shows the content of the file in the CMD.
+
 •	After adding the content to the files we have the commit the changes to the git so that the git will be aware of the changes made.
 git status command will show this. Which states that the files names.txt has been modified.
  
 •	git add.  and then git status
  
 •	git restore –staged names.txt – This restores the last file that has been added.
+
 •	Now commit the changes to the git with git commit -m “names.txt file modified”
+
 •	 git log – command used to check the history of all the changes made to the Project folder.
  
 •	rm -rf names.txt -  removes the files names.txt from Git.  
+
 •	Now check the git status which shows the message as files names.txt was deleted. 
 Now give add and commit the changes that you have made to the project folder.
 Now give check the history of the project folder by checking the logs 
@@ -38,7 +50,9 @@ git log
 •	Suppose if something bad has been committed and we want to restore the files to the files available on Sun AUG 1 11:47 then copy the commit ID
 git reset *commit id*  
 This removes all the changes that have been made after Aug 1 11:47
+
 •	Now give git staus which shows only one commit.  
+
 •	git stash: The git stash command saves your uncommitted changes (both staged and unstaged), and then reverts them from your working copy. This is useful when you need to temporarily save your work and switch branches, or if you need to make a quick change to another branch without losing your current changes.
 
 git stash pop:  will restore your stashed changes.
@@ -50,9 +64,11 @@ GitHub – Create a repository in GitHub and then add this to the Git so that it
 origin is the alias name given to the GitHub URL. The alias name can be anything that makes sense. 
 
 git remote -v: This shows us all the URL attached to the folder.
+
 •	Git push origin master: This command helps in pushing all the files to the URL.
 origin is the alias name 
 master is the branch into which you want to push those changes 
+
 •	Suppose we have a situation where we need to contribute to some project for which you don’t have access to the main Account. In order to resolve this issue we use the fork functionality. We cannot make any changes to the others account so we have to fork it
 
 This helps in forking the project to your account so that you can make all the changes in to the project.
@@ -117,7 +133,8 @@ For example: If Lokesh is working on line 4 in the README file and Ram is also m
 
  
 Now click on the Resolve Conflicts button in GitHub and then manually remove the lines that are not required and then click on mark as resolved.
- 
+ ![image](https://github.com/Lokeshkasim/GitHub-commands/assets/51951547/651af0e7-f56a-4f60-977f-f19a0db0f056)
+
  Now commit the merge to the project then you can see these changes on the main Project.
 •	git merge Kunal: This command is used to merge the code changes to the GitHub repository so that the end user can use the features added to the project.
 
