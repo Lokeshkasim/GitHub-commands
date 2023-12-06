@@ -3,7 +3,9 @@ This Repository contains the contents and commands used for Git and GitHub
 
 
 Youtube Link: https://www.youtube.com/watch?v=apGV9Kg7ics
+
 •	GitHub is a platform or place in online where the project files can be stored and Git maintains the History of changes made to it along with the line number and the person name who made changes to the project.
+
 •	Repository is a folder where the changes have been saved to the project.
 
 •	ls- shows the list of files or folders in the path
